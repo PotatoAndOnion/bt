@@ -1,0 +1,246 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-evenly; /* Center contents */
+    border-radius: 50px;
+    margin: 0 auto;
+    box-shadow: 5px 5px rgba(50, 60, 70, 0.5); 
+    height: 50px; /* Reduce height */
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-evenly; /* Center contents */
+    border-radius: 50px;
+    margin: 0 auto;
+    box-shadow: 5px 5px rgba(50, 60, 70, 0.5); 
+    height: 50px; /* Reduce height */
+}
+
+  
+.navbar a:hover {
+    background-color: black;
+    color: white;
+}
+  
+.navbar a.active {
+    background-color: #1c9ce7;
+    color: white;
+}
+
+.user{
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.active {
+    background-color: #04AA6D;
+}
+
+
+
+
+.box {
+    width: 100%;
+    margin-top: 20px; /* Add margin top to create space */
+    margin-bottom: 20px; /* Add margin bottom to create space */
+}
+.box-content {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+/* Style the form labels */
+.box-content label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* Style the form inputs */
+.box-content input[type="text"],
+.box-content input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the form submit button */
+.box-content button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* Hover effect for the submit button */
+.box-content button[type="submit"]:hover {
+    background-color: #45a049;
+}
+.box-product{
+    width: 50%;
+    height: 800px;
+    margin: auto;
+    background-color: bisque;
+}
+.box-productd{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+table{
+    margin-top: 100px;
+}
+
+
+
+.user-email {
+    color: #fff;
+    font-size: 16px;
+}
+/* Style the user section */
+.user {
+    color: white;
+}
+
+/* Style the logout button */
+.logout {
+    float: right;
+    margin-left: 10px;
+}
+
+.logout button {
+    background-color: #f44336; /* Red background color */
+    color: #fff;
+    border: none;
+    padding: 3px 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px; 
+}
+
+.logout button:hover {
+    background-color: #d32f2f; 
+}
+.account {
+    margin-right: -140px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    width: 220px;
+    height: 45px;
+    padding: 0 5px 0 5px;
+}
+
+
+
+
+
+
+
+#render-post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: calc(50% - 20px); /* Set the width of each product container */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product p {
+    margin-bottom: 10px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.product .product-img-container {
+    height: 200px; /* Set a fixed height for the image container */
+    overflow: hidden; /* Hide any overflowing content */
+    border-radius: 10px; /* Add border-radius to match the product container */
+}
+.product img {
+    max-width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensure the image fills the container without stretching */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+}

@@ -1,0 +1,254 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-evenly; /* Center contents */
+    border-radius: 50px;
+    margin: 0 auto;
+    box-shadow: 5px 5px rgba(50, 60, 70, 0.5); 
+    height: 50px; /* Reduce height */
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-evenly; /* Center contents */
+    border-radius: 50px;
+    margin: 0 auto;
+    box-shadow: 5px 5px rgba(50, 60, 70, 0.5); 
+    height: 50px; /* Reduce height */
+}
+
+  
+.navbar a:hover {
+    background-color: black;
+    color: white;
+}
+  
+.navbar a.active {
+    background-color: #1c9ce7;
+    color: white;
+}
+
+.user{
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.active {
+    background-color: #04AA6D;
+}
+
+
+
+
+.box {
+    width: 100%;
+    margin-top: 20px; /* Add margin top to create space */
+    margin-bottom: 20px; /* Add margin bottom to create space */
+}
+.box-content {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+/* Style the form labels */
+.box-content label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* Style the form inputs */
+.box-content input[type="text"],
+.box-content input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the form submit button */
+.box-content button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* Hover effect for the submit button */
+.box-content button[type="submit"]:hover {
+    background-color: #45a049;
+}
+.box-product{
+    width: 50%;
+    height: 800px;
+    margin: auto;
+    background-color: bisque;
+}
+.box-productd{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+table{
+    margin-top: 100px;
+}
+
+
+
+.user-email {
+    color: #fff;
+    font-size: 16px;
+}
+/* Style the user section */
+.user {
+    color: white;
+}
+
+/* Style the logout button */
+.logout {
+    float: right;
+    margin-left: 10px;
+}
+
+.logout button {
+    background-color: #f44336; /* Red background color */
+    color: #fff;
+    border: none;
+    padding: 3px 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px; /* Add some margin between email and logout button */
+}
+
+.logout button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+/* Add a class for the container of account and logout button */
+.account {
+    margin-right: -200px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    width: 220px;
+    height: 45px;
+    padding: 0 5px 0 5px;
+}
+
+
+#update-product{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#update-product:hover{
+    background-color: #45a049;
+}
+
+
+
+
+
+.delete-btn {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: none; /* Remove default button outline */
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Update button */
+.update-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: none; /* Remove default button outline */
+}
+
+.update-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
